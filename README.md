@@ -1,13 +1,32 @@
 # WikiClubRecruitment
 
-Solve the latest problem and create a pull request.
+A simple stock management project for the WikiClubRecruitment challenge.  
+It fixes bugs in the original script, adds type hints, tests, and documentation.
 
-## Tasks
+---
 
-- Fix the bug in "main.py".
-- Make it use the python's type hinting feature.
-- Place it in a valid module named stock.
-- Add an appropriate .gitignore file.
-- Write 5 test cases minimum.
-- Make a well formatted professional pull request.
-- Well documented code.
+## Features
+- ✅ Accurate total stock value calculation  
+- ✅ Identifies out-of-stock and invalid products  
+- ✅ Python type hints for clarity  
+- ✅ Packaged as a `stock` module  
+- ✅ Includes `.gitignore` and **5+ pytest tests**  
+
+---
+
+## Quick Start
+
+### Clone & Setup
+```bash
+git clone https://github.com/your-username/WikiClubRecruitment.git
+cd WikiClubRecruitment
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+# Run the Script
+python -m stock.main
+
+# Run Tests
+pytest tests/ -v
